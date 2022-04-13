@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T04:58:06.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.1" etag="XR6bvZLqH6xse1qeHAAX" type="github"><diagram id="cyJsS7ivkHpWse9aPu4b">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-13T08:33:27.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="VPh0nhP7JtOM4T-LnUE8" version="17.4.1" type="github">
+  <diagram id="cyJsS7ivkHpWse9aPu4b" name="Page-1">
+    <mxGraphModel dx="677" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mPPLmPChkx4s_wyopT-2-1" value="JVM：（包括&lt;font color=&quot;#ff0000&quot;&gt;类加载系统，运行时数据区，和执行引擎&lt;/font&gt;）用来执行java字节码文件，使不同平台的JVM执行的字节码有相同的结构&lt;br&gt;JRE：（&lt;font color=&quot;#ff0000&quot;&gt;JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries&lt;/font&gt;.）包含运行一个编译后的java程序所需的所有包。&lt;br&gt;JDK：（包括JRE和编译工具javac，监控工具jconsole，javadoc，jdb）&lt;br&gt;&lt;br&gt;运行一个包涵JSP文件的Java程序也是需要安装JDK的，因为需要对JSP文件中的servlet进行编译" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="380" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
