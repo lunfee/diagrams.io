@@ -1,11 +1,128 @@
-<mxfile host="app.diagrams.net" modified="2022-04-13T08:33:27.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="VPh0nhP7JtOM4T-LnUE8" version="17.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-15T07:07:39.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="-zHC0nVWRZOeoxx6nsvQ" version="17.4.4" type="github">
   <diagram id="cyJsS7ivkHpWse9aPu4b" name="Page-1">
-    <mxGraphModel dx="677" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mPPLmPChkx4s_wyopT-2-1" value="JVM：（包括&lt;font color=&quot;#ff0000&quot;&gt;类加载系统，运行时数据区，和执行引擎&lt;/font&gt;）用来执行java字节码文件，使不同平台的JVM执行的字节码有相同的结构&lt;br&gt;JRE：（&lt;font color=&quot;#ff0000&quot;&gt;JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries&lt;/font&gt;.）包含运行一个编译后的java程序所需的所有包。&lt;br&gt;JDK：（包括JRE和编译工具javac，监控工具jconsole，javadoc，jdb）&lt;br&gt;&lt;br&gt;运行一个包涵JSP文件的Java程序也是需要安装JDK的，因为需要对JSP文件中的servlet进行编译" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="plugZ318Kx3CzQZgdIX9-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="160.5" width="880" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="mPPLmPChkx4s_wyopT-2-1" value="JVM：（包括&lt;font color=&quot;#ff0000&quot;&gt;类加载系统，运行时数据区，和执行引擎&lt;/font&gt;）用来执行java字节码文件，使不同平台的JVM执行的字节码有相同的结构&lt;br&gt;JRE：（&lt;font color=&quot;#ff0000&quot;&gt;JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries&lt;/font&gt;.）包含运行一个编译后的java程序所需的所有包。&lt;br&gt;JDK：（包括JRE和编译工具javac，监控工具jconsole，javadoc，jdb）&lt;br&gt;&lt;br&gt;运行一个包涵JSP文件的Java程序也是需要安装JDK的，因为需要对JSP文件中的servlet进行编译" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="10" y="10" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-1" value="对象已死？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="206" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="198.5" width="20" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-6" value="引用计数法：循环引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="101" y="190" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-7" value="&lt;u&gt;可达性分析：&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="233" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-9" value="图论：通过一系列GC Roots对象作为起始节点集，根据引用关系向下搜索，形成引用链，如果一个对象到GC Roots没有任何引用链，则到GC Roots 不可达，证明其不可用" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="192" y="213" width="258" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="174.5" width="20" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-11" value="虚拟机&lt;font color=&quot;#ff0000&quot;&gt;栈&lt;/font&gt;（栈帧中的本地变量表）中引用的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="537" y="170" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-13" value="本地方法&lt;font color=&quot;#ff0000&quot;&gt;栈&lt;/font&gt;中 JNI（即一般说的 Native 方法）引用的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="537" y="203.5" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-14" value="&lt;font color=&quot;#ff0000&quot;&gt;方法区&lt;/font&gt;中类静态属性引用的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-15" value="&lt;font color=&quot;#ff0000&quot;&gt;方法区&lt;/font&gt;中常量引用的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="270" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-16" value="&lt;font color=&quot;#000000&quot;&gt;GC Roots&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="233" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-17" value="&lt;font color=&quot;#ff0000&quot;&gt;同步锁&lt;/font&gt;持有的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="542" y="300" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-19" value="引用&lt;font color=&quot;#000000&quot;&gt;的拓展&lt;br&gt;（有点非必须对象&lt;br&gt;缓存的意思）&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="405" y="55" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="519" y="20" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-22" value="强引用：传统意义上的引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="532" y="20" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-23" value="软引用：只有当前空间即将发生内存溢出时才会被清理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="534" y="50" width="300" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-24" value="弱引用：只能活到下一次垃圾回收为止" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="533" y="90" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-25" value="虚引用：传统意义上的未引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="535" y="120" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-26" value="分代假说" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="380" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="335" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-28" value="&lt;font color=&quot;#000000&quot;&gt;弱分代假说：绝大多数的对象都是朝生夕死的&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-29" value="强分代假说：活过越多次垃圾回收过程的对象越难以消亡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="385" width="320" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-30" value="跨代引用假说：跨代引用占极少数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="435" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-31" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="335" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-34" value="&lt;font style=&quot;font-size: 13px&quot;&gt;为何分代&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#66FFFF;sketch=1;shadow=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="480" y="356" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-35" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=13;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-36" value="对于朝生夕死的区域，去关注存活的对象；&lt;br&gt;对于难以消亡的对象，关注死亡的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="579" y="335" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-37" value="同时兼顾了内存空间的有效利用和垃圾回收的时间开销" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="576" y="385" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=13;fontColor=#000000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="330" y="420" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-39" value="&lt;font color=&quot;#ff0000&quot;&gt;解释&lt;/font&gt;：存在相互引用的对象趋向于同时生存，同时死亡" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="346" y="420" width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-42" value="&lt;font color=&quot;#000000&quot;&gt;解决：由于只有极少数的对象间存在跨代引用的情况，没必要为这种引用去&lt;/font&gt;扫描全老年代&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;在新生代建立&lt;/font&gt;全局记忆集&lt;font color=&quot;#000000&quot;&gt;，标识出哪一块老年代区域需要在Minor GC时加入GC Roots进行扫描&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="274" y="443" width="670" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-43" value="回收算法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="561" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-44" value="回收器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="780" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;fontSize=13;fontColor=#FF0000;fillColor=#66FFFF;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-46" value="&lt;font color=&quot;#000000&quot;&gt;标记复制（Copy）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="111" y="500" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-49" value="将可用内存分为不同区域，当一块区域使用完将存活的对象复制到另一块区域；不存在内存碎片的问题&lt;br&gt;在新生代使用，而且由弱分代假说，可以不进行半区复制，而是像新生代这种9:1复制，Serial ParNew Parallel Scavenge" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;shadow=0;fontSize=13;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="231" y="491" width="729" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-50" value="标记清除（MarkSweep）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="101" y="571" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="plugZ318Kx3CzQZgdIX9-51" value="先标记对象是否死亡，再对对象进行清除&lt;br&gt;执行效率不稳定：对象与垃圾比例&lt;br&gt;内存碎片化问题：" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;shadow=0;fontSize=13;strokeColor=#6c8ebf;align=left;" vertex="1" parent="1">
+          <mxGeometry x="255" y="571" width="275" height="69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
