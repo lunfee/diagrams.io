@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T12:19:36.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="e6MKFmuI6wOLTFvovj7P" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T13:03:14.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="PmQzGqtSpQ44CnUUdsnz" version="17.4.6" type="github">
   <diagram id="bTqQYvLTSXa7qgJgAP1T" name="Page-1">
     <mxGraphModel dx="2885" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -8,16 +8,109 @@
           <mxGeometry x="-1690" y="10" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rv_qOeCksHxJ9H7pdhGz-55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=hachure;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1520" y="50" width="20" height="120" as="geometry" />
+          <mxGeometry x="-1540" y="110" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="rv_qOeCksHxJ9H7pdhGz-56" value="报文结构&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1620" y="100" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rv_qOeCksHxJ9H7pdhGz-62" value="请求：" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1500" y="60" width="120" height="30" as="geometry" />
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-62" value="请求：请求行 | 请求头 | 请求体" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1517" y="109" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rv_qOeCksHxJ9H7pdhGz-64" value="响应：状态行 | 响应头 | 响应体" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1497" y="134" width="377" height="30" as="geometry" />
+          <mxGeometry x="-1517" y="198" width="227" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-66" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=hachure;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1275" y="38" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-67" value="请求行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="38" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-68" value="请求头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="87" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-69" value="请求体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="128" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-71" value="请求方式(GET) | 请求URI(/api/gc/details) | 协议版本(HTTP1.1)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="33" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-73" value="Host | Connection | User-Agent | Accept | Accept-Encoding | Cookie" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="83" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-74" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=hachure;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1275" y="190" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-75" value="状态行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-76" value="响应头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="239" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-77" value="响应体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1255" y="280" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-78" value="协议版本(HTTP1.1)&amp;nbsp;| 状态码(200) | 状态描述(OK)" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="185" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-79" value="Content- Type | Content-Length | Content-Encoding" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="235" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-80" value="首部包含缓存过期时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1185" y="280" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-83" value="&lt;span&gt;报文结构&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;container=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="148" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-84" value="&lt;span&gt;状态码&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;container=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-85" value="&lt;span&gt;请求方式&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;container=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-86" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=hachure;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="440" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-87" value="POST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1525" y="440" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-88" value="GET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1523" y="540" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-89" value="POST 的语义是根据请求负荷（报文body）对指定的资源做出处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="440" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-90" value="GET的语义是从服务器获取指定资源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1440" y="540" width="270" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-91" value="区别" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1528" y="640" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-96" value="浏览器会限制GET请求的长度，而不会限制POST请求的长度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1378" y="640" width="440" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-98" value="长度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="640" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-101" value="安全" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="720" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-102" value="GET只读，不会对服务器造成数据影响，所以是安全的， POST是不安全的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="720" width="540" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-111" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;fontColor=#000000;" edge="1" parent="1" source="rv_qOeCksHxJ9H7pdhGz-103" target="rv_qOeCksHxJ9H7pdhGz-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-103" value="幂等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1445" y="790" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-104" value="一般情况下，由于GET只读，多次请求的结果是一样的，但是POST不同的请求会对服务器资源做出不同的更改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1384" y="790" width="800" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-106" value="&lt;span&gt;HTTP缓存&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;container=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1640" y="910" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-112" value="强制缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1478" y="900" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-113" value="协商缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1476" y="940" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
