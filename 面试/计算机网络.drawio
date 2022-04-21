@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T11:36:40.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="IWfA46Qz5U_io2GralKL" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T12:19:36.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="e6MKFmuI6wOLTFvovj7P" version="17.4.6" type="github">
   <diagram id="bTqQYvLTSXa7qgJgAP1T" name="Page-1">
-    <mxGraphModel dx="813" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2885" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RL8b2p7FF3ztYDbs7SIw-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;gradientColor=none;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="RL8b2p7FF3ztYDbs7SIw-1" value="HTTP" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;absoluteArcSize=0;shadow=0;glass=0;imageAspect=1;fillStyle=hachure;labelBorderColor=none;labelBackgroundColor=none;container=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="-1690" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-55" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=hachure;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=#000000;strokeWidth=2;fillColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1520" y="50" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-56" value="报文结构&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1620" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-62" value="请求：" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1500" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rv_qOeCksHxJ9H7pdhGz-64" value="响应：状态行 | 响应头 | 响应体" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=1;fillWeight=4;hachureGap=8;hachureAngle=45;fillStyle=solid;fontFamily=Helvetica;fontSize=16;fontColor=default;strokeColor=none;strokeWidth=2;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1497" y="134" width="377" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
